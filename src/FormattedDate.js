@@ -22,7 +22,8 @@ export default function FormattedDate(props) {
   }
   return (
     <div>
-      Last updated on {day} at {hours}:{minutes}
+      <i className="fa-regular fa-clock"></i> Last updated on {day} at {hours}:
+      {minutes}
     </div>
   );
 }
