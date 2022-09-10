@@ -1,13 +1,19 @@
-.App :root {
-  --branding-color: #04ac8f;
-  --heading-color: #2b475c;
+
+body {
+  background: #f9f9f9;
+  font-family: "Montserrat", sans-serif;
 }
 
 .App {
-  max-width: 600px;
+  max-width: 760px;
   margin: 30px auto;
-  font-family: "Montserrat", sans-serif;
+  padding: 30px;
   
+
+}
+
+.App h2 {
+  color: #2b475c;
 }
 
 .App footer {

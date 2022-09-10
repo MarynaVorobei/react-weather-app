@@ -4,10 +4,10 @@ import { ThreeDots } from "react-loader-spinner";
 export default function Loader() {
   return (
     <ThreeDots
-      height="60"
-      width="60"
-      radius="7"
-      color="var(--heading-color)"
+      height="40"
+      width="40"
+      radius="5"
+      color="#2b475c"
       visible={true}
     />
   );

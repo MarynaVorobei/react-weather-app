@@ -6,9 +6,11 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h2 className="mb-3">Weather Forecast</h2>
+        <h2 className="mb-3">
+          Weather Forecast
+        </h2>
         <Weather defaultCity="Madrid" />
-        <footer>
+        <footer className="mt-4">
           This project was coded by{" "}
           <a
             href="https://singular-puppy-7d796a.netlify.app/"
