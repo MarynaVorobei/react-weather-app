@@ -1,7 +1,13 @@
+.App :root {
+  --branding-color: #04ac8f;
+  --heading-color: #2b475c;
+}
+
 .App {
   max-width: 600px;
   margin: 30px auto;
   font-family: "Montserrat", sans-serif;
+  
 }
 
 .App footer {
