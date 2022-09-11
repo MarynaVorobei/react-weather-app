@@ -7,7 +7,7 @@ export default function Loader() {
       height="40"
       width="40"
       radius="5"
-      color="#2b475c"
+      color="#fff"
       visible={true}
     />
   );

@@ -1,22 +1,35 @@
-
 body {
-  background: #f9f9f9;
+  background: #04ac8f;
   font-family: "Montserrat", sans-serif;
+  color: #2b475c;
 }
 
 .App {
-  max-width: 760px;
+  max-width: 680px;
   margin: 30px auto;
-  padding: 30px;
-  
-
 }
 
 .App h2 {
-  color: #2b475c;
+  color: #fff;
+  font-size: 34px;
+  position: relative;
+  left: 8px;
 }
 
 .App footer {
   font-size: 11px;
   margin: 10px 0;
+  color: #fff;
+  position: relative;
+  left: 8px;
+}
+
+.App footer a {
+  font-size: 11px;
+  text-decoration: none;
+  color: #2b475c;
+}
+
+.App footer a:hover {
+  color: #fff;
 }

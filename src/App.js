@@ -6,12 +6,9 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <h2 className="mb-3">
-          Weather Forecast
-        </h2>
+        <h2 className="mt-2 mb-4">Weather Forecast</h2>
         <Weather defaultCity="Madrid" />
-        <footer className="mt-4">
-          This project was coded by{" "}
+        <footer className="mt-4">© 2022 | Designed & coded by{" "}
           <a
             href="https://singular-puppy-7d796a.netlify.app/"
             target="_blank"
@@ -19,7 +16,7 @@ export default function App() {
           >
             Maryna Vorobei
           </a>{" "}
-          and is open-sourced on{" "}
+          | Open-sourced on{" "}
           <a
             href="https://github.com/MarynaVorobei/react-weather-app"
             target="_blank"

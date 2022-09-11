@@ -1,8 +1,49 @@
 .WeatherInfo {
   box-shadow: 0 10px 10px rgb(65 50 100 / 8%);
-  background: #e8fbf8;
+  background: #04ac8f;
   border-radius: 12px;
-  padding: 16px;
-  color: rgb(135, 135, 135);
-  margin: 30px auto;
+  padding: 30px 20px;
+  margin: 40px auto;
+  color: #fff;
+}
+
+.WeatherInfo h1 {
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 29px;
+}
+
+.WeatherInfo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.WeatherInfo li {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  list-style: none;
+}
+
+.WeatherInfo .weather-description:first-letter {
+  text-transform: uppercase;
+}
+
+.WeatherInfo .temperature {
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 400;
+}
+
+.WeatherInfo .unit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+}
+
+.WeatherInfo .float-left {
+  float: left;
 }
