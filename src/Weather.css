@@ -1,7 +1,7 @@
 .Weather {
   background: #fff;
   border-radius: 12px;
-  padding: 16px;
+  padding: 24px;
 }
 
 .Weather canvas {
@@ -23,4 +23,18 @@
   color: #fff;
 }
 
+.Weather .WeatherForecast-day {
+  font-weight: 600;
+}
 
+.Weather .WeatherForecast-temperature-max {
+  font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+  .Weather .btn {
+    width: 70%;
+  }
+  
+}

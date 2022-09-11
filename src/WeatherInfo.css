@@ -31,9 +31,9 @@
 
 .WeatherInfo .temperature {
   font-weight: bold;
-  font-size: 64px;
-  line-height: 64px;
-  font-weight: 400;
+  font-size: 74px;
+  line-height: 1;
+  font-weight: 500;
 }
 
 .WeatherInfo .unit {
@@ -46,4 +46,26 @@
 
 .WeatherInfo .float-left {
   float: left;
+}
+
+@media (max-width: 768px) {
+
+.WeatherInfo h1 {
+  font-size: 42px;
+  text-align: center;
+}
+
+.WeatherInfo li {
+  font-size: 14px;
+  text-align: center;
+}
+
+.WeatherInfo ul {
+  margin-top: 20px;
+}
+ 
+.WeatherInfo .float-left {
+  float: none;
+  text-align: center;
+}
 }

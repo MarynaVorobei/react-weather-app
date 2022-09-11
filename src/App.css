@@ -5,7 +5,7 @@ body {
 }
 
 .App {
-  max-width: 680px;
+  max-width: 740px;
   margin: 30px auto;
 }
 
@@ -32,4 +32,32 @@ body {
 
 .App footer a:hover {
   color: #fff;
+}
+
+@media (max-width: 768px) {
+
+.App {
+  max-width: 680px;
+  
+}
+
+  .App h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+  .App footer {
+    font-size: 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+
+.App {
+  max-width: 500px;
+}
+
+.App footer {
+    font-size: 8px;
+  }
 }

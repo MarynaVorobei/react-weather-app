@@ -8,7 +8,8 @@ export default function App() {
       <div className="container">
         <h2 className="mt-2 mb-4">Weather Forecast</h2>
         <Weather defaultCity="Madrid" />
-        <footer className="mt-4">© 2022 | Designed & coded by{" "}
+        <footer className="mt-4">
+          © 2022 | Designed & coded by{" "}
           <a
             href="https://singular-puppy-7d796a.netlify.app/"
             target="_blank"
