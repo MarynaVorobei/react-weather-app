@@ -49,6 +49,10 @@ body {
     font-size: 10px;
     text-align: center;
   }
+
+  .App footer a {
+  font-size: 10px;
+}
 }
 
 @media (max-width: 576px) {
@@ -58,6 +62,9 @@ body {
 }
 
 .App footer {
-    font-size: 8px;
+    font-size: 9px;
   }
+   .App footer a {
+  font-size: 9px;
+}
 }

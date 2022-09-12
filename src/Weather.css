@@ -16,7 +16,7 @@
 
 .Weather .btn {
   background-color: #e8fbf8;
-  }
+}
 
 .Weather .btn:hover {
   background-color: #04ac8f;
@@ -31,10 +31,8 @@
   font-weight: 500;
 }
 
-
 @media (max-width: 768px) {
   .Weather .btn {
     width: 70%;
   }
-  
 }

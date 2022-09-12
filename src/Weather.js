@@ -3,7 +3,6 @@ import WeatherInfo from "./WeatherInfo";
 import WeatherForecast from "./WeatherForecast";
 import Loader from "./Loader";
 import axios from "axios";
-
 import "./Weather.css";
 
 export default function Weather(props) {
@@ -41,6 +40,7 @@ export default function Weather(props) {
   }
 
   function handleLocation(event) {
+    event.preventDefault();
     setCity(event.target.value);
     navigator.geolocation.getCurrentPosition(handlePosition);
   }
@@ -91,8 +91,6 @@ export default function Weather(props) {
     );
   } else {
     search();
-    return (
-    <Loader />
-    );
+    return <Loader />;
   }
 }
